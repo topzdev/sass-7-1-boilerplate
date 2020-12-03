@@ -1,0 +1,47 @@
+// Utilities (abtractions)
+@import "utils/variables";
+@import "utils/colors";
+@import "utils/custom";
+@import "utils/functions";
+@import "utils/helpers";
+@import "utils/mixins";
+@import "utils/placeholder";
+
+// normalize html
+@import "vendors/normalize";
+
+@import "base/reset";
+@import "base/base";
+@import "base/animation";
+@import "base/typography";
+
+// Bootstrap grid
+@import "vendors/bootstrap-grid";
+
+// Components
+@import "components/box";
+@import "components/buttons";
+@import "components/card";
+@import "components/carousel";
+@import "components/cover";
+@import "components/dropdown";
+@import "components/input";
+
+// Layout
+@import "layout/form";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/sidebar";
+@import "layout/footer";
+@import "layout/section";
+@import "layout/table";
+
+// pages
+@import "pages/home";
+@import "pages/about";
+@import "pages/contact";
+
+// themes
+@import "themes/default";
+// @import "themes/dark";
+// @import "themes/light";
